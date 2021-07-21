@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.core.view.get
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_history_row.view.*
-
+//check git
 class HistoryAdapter(val context: Context, val list:ArrayList<String>)
     : RecyclerView.Adapter<HistoryAdapter.ViewHolder>() {
     class ViewHolder(view:View):RecyclerView.ViewHolder(view)
